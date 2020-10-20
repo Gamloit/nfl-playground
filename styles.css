@@ -1,0 +1,15 @@
+.afc-teams {
+    float: left;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: red;
+}
+
+.nfc-teams{
+
+    float:right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: blue;
+
+}
