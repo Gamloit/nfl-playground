@@ -2,8 +2,6 @@ body{
     background-color: darkgray;
 }
 
-
-
 .afc-teams {
     float: left;
     margin-left: 30px;
@@ -28,5 +26,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif
     font-size: 30px;
     color: black;
+}
+
+.my-style{
+
+    color: purple;
+    size: 50px;
+    font-family: fantasy;
 }
 
