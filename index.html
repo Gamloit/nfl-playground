@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Playground</title>
+    <title>NFL Playground</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body> 
@@ -12,15 +12,16 @@
 
     <h4>The NFL is comprised of 32 teams, 16 in each conference, with 4 teams in each division. The two conferences are the American Football Conference (AFC) and the National Football Conference (NFC).</h4>
 
-    <div class = afc-teams>
-       <h2> <a href=afc-stats.html>AFC Teams</a> </h2>
-  
+    <div class="afc-teams">
+       <h2> <a href="./afc-stats.html">AFC Teams</a> </h2>
+
        <h3>North</h3>
+       <!--li should always be immediate child of uls or ols-->
        <ul>
-          <a href="https://steelers.com" target="blank"> <li>Pittsburgh Steelers</li></a>
-          <a href="https://clevelandbrowns.com" target="blank"> <li>Cleveland Browns</li> </a>
-          <a href="https://bengals.com" target="blank"> <li>Cincinnati Bengals</li> </a>
-          <a href="https://baltimoreravens.com" target="blank"> <li>Baltimore Ravens</li> </a>
+          <a href="https://steelers.com" target="_blank"> <li>Pittsburgh Steelers</li></a>
+          <a href="https://clevelandbrowns.com" target="_blank"> <li>Cleveland Browns</li> </a>
+          <a href="https://bengals.com" target="_blank"> <li>Cincinnati Bengals</li> </a>
+          <a href="https://baltimoreravens.com" target="_blank"> <li>Baltimore Ravens</li> </a>
        </ul>
 
        <h3>South</h3>
@@ -48,7 +49,7 @@
          </ul>
     </div>
 
-    <div class = nfc-teams>
+    <div class="nfc-teams">
         <h2>NFC Teams</h2>
    
         <h3>North</h3>
@@ -57,8 +58,6 @@
             <li>Minnestota Vikings</li>
             <li>Chicago Bears</li>
             <li>Detroit Lions</li>
-
-            <!-- It may not be good practice but if you have a format that you just need to change the data in, is there an easy way to keep the tags but remove the text within? -->
 
         </ul>
  
@@ -85,6 +84,8 @@
               <li>Seattle Seahawks</li>
               <li>Arizona Cardinals</li>
           </ul>
+
+          <div id="populated-by-javascript"></div>
      </div>
-     <script src="scripts/main.js"></script>
+     <script src="./scripts/main.js"></script>
      </body>

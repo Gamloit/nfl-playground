@@ -1,37 +1,31 @@
-body{
+body {
     background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .afc-teams {
     float: left;
     margin-left: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: red;
 }
 
-.nfc-teams{
-
-    float:right;
+.nfc-teams {
+    float: right;
     margin-right: 30px;   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: blue;
 }
 
-.main-title{
-
-    margin:auto;
+.main-title {
+    margin: auto;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
     font-size: 30px;
     color: black;
 }
 
-.my-style{
-
+.my-style {
     color: purple;
     size: 50px;
     font-family: fantasy;
 }
-

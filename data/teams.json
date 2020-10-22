@@ -1,0 +1,22 @@
+[
+    {
+        "id": "pittsburgh-steelers",
+        "name": "Pittsburgh Steelers",
+        "bowlAppearances": 10
+    },
+    {
+        "id": "cleveland-browns",
+        "name": "Cleveland Browns",
+        "bowlAppearances": 10
+    },
+    {
+        "id": "cincinnati-bengals",
+        "name": "Cincinnati Bengals",
+        "bowlAppearances": 10
+    },
+    {
+        "id": "baltimore-ravens",
+        "name": "Baltimore Ravens",
+        "bowlAppearances": 5
+    }
+]
