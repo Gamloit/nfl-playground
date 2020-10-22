@@ -21,16 +21,24 @@ myHeading.textContent = 'This is an example of JavaScript';
 // console.log(myBoolean);
 
 // Dynamically fetched content example
-const populateDynamicContent = async () => {
-    const teams = await fetch('./data/teams.json').then(res => res.json());
+const populateDynamicContent = async () => {    
     const dynamicContentDiv = document.getElementById('populated-by-javascript');
 
-    console.log(teams);
+    if (dynamicContentDiv) {
+        const teams = await fetch('./data/teams.json').then(res => res.json());
+        console.log(teams);
 
-    dynamicContentDiv.innerHTML = `
-        <h2>All teams from database</h2>
-        <div>${teams.map(team => `${team.name} (id: ${team.id}; bowl apperances: ${team.bowlAppearances})`).join(', ')}</div>
-    `;
+        dynamicContentDiv.innerHTML = `
+            <h2>All teams from database</h2>
+            <div>${
+                teams
+                    .map(
+                        team => `${team.name} (id: ${team.id}; bowl apperances: ${team.bowlAppearances})`
+                    )
+                    .join('<br />')
+            }</div>
+        `;
+    }
 };
 
 populateDynamicContent();
