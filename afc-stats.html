@@ -6,9 +6,12 @@
     <title>AFC Stats</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body> 
+
+<!-- Wondering why the tables are aligning differently below. The first one is aligning properly with the columns but the others are not, even though the class is the same. I feel like it has something to do with the titles in the first table but I don't want to repeat those and not sure how to align everything even without the titles being on this table -->
+
+<body>
     <h2>North</h2>
-    <table>
+    <table class="afc-table">
         <thead>
             <tr>
                 <th>Team</th>
@@ -16,7 +19,7 @@
                 <th>Home Stadium</th>
                 <th>Super Bowl Appearances</th>
             </tr>
-        </thead> 
+        </thead>
         <tbody>
             <tr>
                 <td>Pittsburgh Steelers</td>
@@ -42,11 +45,12 @@
                 <td>M&T Bank Stadium</td>
                 <td>2</td>
             </tr>
-        </tbody>   
+        </tbody>
     </table>
 
     <h2>South</h2>
-    <table>
+    <table class="afc-table">
+      <tbody>
         <tr>
             <td>Tennessee Titans</td>
             <td>1959</td>
@@ -71,10 +75,11 @@
             <td>Lucas Oil Stadium</td>
             <td>3</td>
         </tr>
+      </tbody>
     </table>
-    
+
     <h2>East</h2>
-    <table>
+    <table class="afc-table">
         <tr>
             <td>New England Patriots</td>
             <td>1959</td>
@@ -102,7 +107,7 @@
     </table>
 
     <h2>West</h2>
-    <table>
+    <table class="afc-table">
         <tr>
             <td>Kansas City Chiefs</td>
             <td>1959</td>
