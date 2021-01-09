@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<!-- Wondering why the tables are aligning differently below. The first one is aligning properly with the columns but the others are not, even though the class is the same. I feel like it has something to do with the titles in the first table but I don't want to repeat those and not sure how to align everything even without the titles being on this table -->
+<!-- Since it was pointed out to me that I was using different tables, I see why that wouldn't work. Ideally I would like to have the same table but include some text to separate. Not quite sure how to do that so I will just create four tables to make them look better, but keeping this here to ask later -->
 
 <body>
     <h2>North</h2>
     <table class="afc-table">
         <thead>
             <tr>
-                <th>Team</th>
-                <th>Year Founded</th>
-                <th>Home Stadium</th>
-                <th>Super Bowl Appearances</th>
+                <th scope="col">Team</th>
+                <th scope="col">Year Founded</th>
+                <th scope="col">Home Stadium</th>
+                <th scope="col">Super Bowl Appearances</th>
             </tr>
         </thead>
-        <tbody>
+          <tbody>
             <tr>
                 <td>Pittsburgh Steelers</td>
                 <td>1933</td>
@@ -45,11 +45,21 @@
                 <td>M&T Bank Stadium</td>
                 <td>2</td>
             </tr>
+            <tr>
+
         </tbody>
     </table>
 
-    <h2>South</h2>
+   <h2>South</h2>
     <table class="afc-table">
+      <thead>
+          <tr>
+              <th scope="col">Team</th>
+              <th scope="col">Year Founded</th>
+              <th scope="col">Home Stadium</th>
+              <th scope="col">Super Bowl Appearances</th>
+          </tr>
+      </thead>
       <tbody>
         <tr>
             <td>Tennessee Titans</td>
@@ -80,6 +90,14 @@
 
     <h2>East</h2>
     <table class="afc-table">
+      <thead>
+          <tr>
+              <th scope="col">Team</th>
+              <th scope="col">Year Founded</th>
+              <th scope="col">Home Stadium</th>
+              <th scope="col">Super Bowl Appearances</th>
+          </tr>
+      </thead>
         <tr>
             <td>New England Patriots</td>
             <td>1959</td>
@@ -108,6 +126,14 @@
 
     <h2>West</h2>
     <table class="afc-table">
+      <thead>
+          <tr>
+              <th scope="col">Team</th>
+              <th scope="col">Year Founded</th>
+              <th scope="col">Home Stadium</th>
+              <th scope="col">Super Bowl Appearances</th>
+          </tr>
+      </thead>
         <tr>
             <td>Kansas City Chiefs</td>
             <td>1959</td>
